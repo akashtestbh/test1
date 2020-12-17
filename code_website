@@ -1,0 +1,74 @@
+<!Doctype html>
+<html>
+<style>
+.btn-group button {
+  background-color: blue;
+  color: white; 
+  padding: 10px 24px; 
+  cursor: pointer; 
+  width: 30%;
+  display: block; 
+}
+
+.btn-group button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+
+.btn-group button:hover {
+  background-color: #3e8e41;
+}
+h1{
+ background-color: purple; 
+ padding: 10px 24px;
+  color: white
+}
+
+.div2 {
+  background-color: blue;
+  color:white;
+  width: 100px;
+  float: right;
+  height: 300px;  
+
+  padding: 20px;
+
+}
+
+h2{
+ text-align:center;
+padding-top: 25px;
+}
+</style>
+<body>
+
+<h1>Chania</h1>
+
+<div class="btn-group">
+  <button>Apple</button>
+  <button>Samsung</button>
+  <button>Sony</button>
+  <button>Sony</button>
+</div>
+
+<div class="div2"><h>WHAT?<h>
+<br>
+<br>
+china is a city on the island
+<br>
+<br>
+<h>WHere?<h>
+<br>
+<br>
+china is a city on the island
+<h>HOW?<h>
+<br>
+<br>
+china is a city on the island
+
+</div>
+
+
+<h2>The CITY</h2>
+</body>
+</html>
